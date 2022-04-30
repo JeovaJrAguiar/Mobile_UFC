@@ -1,11 +1,11 @@
 import React from 'react'
-import {StyleSheet, Text, Dimentions, TouchableHighlight} from 'react-native'
+import {StyleSheet, Text, Dimensions, TouchableHighlight} from 'react-native'
 
 const styles = StyleSheet.create({
     button:{
         fontSize: 40,
-        height: Dimentions.get('window'. width/4),
-        with: Dimentions.get('window').width/4,
+        height: Dimensions.get('window'. width/4),
+        with: Dimensions.get('window').width/4,
         padding: 20,
         backgroundColor: '#f0f0f0',
         textAling: 'center',
@@ -17,10 +17,10 @@ const styles = StyleSheet.create({
         backgroundColor: '#fa8231',
     },
     doubleButton:{
-        width: (Dimentions.get('window').widht/4) * 2,
+        width: (Dimensions.get('window').widht/4) * 2,
     },
     tripleBlutton:{
-        width: (Dimentions.get('window').width/4) * 3
+        width: (Dimensions.get('window').width/4) * 3
     },
 })
 
