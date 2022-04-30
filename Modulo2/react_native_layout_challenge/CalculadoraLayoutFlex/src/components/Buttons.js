@@ -1,5 +1,5 @@
 import React from 'react'
-import {StyleSheet, Text, Dimentions, TouchtableHighLight} from 'react-natice'
+import {StyleSheet, Text, Dimentions, TouchableHighlight} from 'react-natice'
 
 const styles = StyleSheet.create({
     button:{
@@ -39,8 +39,8 @@ export default props => {
     }
 
     return(
-        <TouchtableHighLight onPress = {{} => props.onClick(props.label)}>
+        <TouchableHighlight onPress = {() => props.onClick(props.label)}>
             <Text style={styleButtons}>{props.label}</Text>
-        </TouchtableHighLight>
+        </TouchableHighlight>
     )
 }
